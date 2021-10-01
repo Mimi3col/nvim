@@ -27,6 +27,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     
+    Plug 'plasticboy/vim-markdown'
+    Plug 'vim-pandoc/vim-pandoc'
+    Plug 'vim-pandoc/vim-pandoc-syntax'
+
 
     Plug 'liuchengxu/vim-which-key'
     Plug 'ghifarit53/tokyonight-vim'
