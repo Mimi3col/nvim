@@ -10,14 +10,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
+    
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    
     " File Explorer
     "Plug 'scrooloose/NERDTree'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     Plug 'morhetz/gruvbox'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    
     "Project manager 
     Plug 'mhinz/vim-startify'
     
@@ -27,11 +33,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     
+    "markdown
     Plug 'plasticboy/vim-markdown'
     Plug 'vim-pandoc/vim-pandoc'
     Plug 'vim-pandoc/vim-pandoc-syntax'
 
-
+    "which-key and theme 
     Plug 'liuchengxu/vim-which-key'
     Plug 'ghifarit53/tokyonight-vim'
 call plug#end()

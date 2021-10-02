@@ -11,4 +11,4 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/sinify.vim
 source $HOME/.config/nvim/plug-config/which-key.vim
 "source $HOME/.config/nvim/themes/tokyonight.vim
- 
+source $HOME/.config/nvim/plug-config/coc.vim  
