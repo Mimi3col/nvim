@@ -1,4 +1,4 @@
-# Neovim-Lua
+# Neovim
 
 This is just my Neovim configuraiton 
 
